@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #6c6b6b
-}
-a{
-	text-decoration: none;
+
 }
 
 .clearfix::after {
@@ -14,43 +11,110 @@ a{
 	clear:both;
 }
  header{
-    width: 90%;
-    padding: 15px 0;
-    margin: 0 auto;
+    width: 100%;
     text-align: center;
+    padding: 20px;
 }
 
 header .headline{
-	font-size: 32px;
+    border-bottom: 1px solid;
 }
+
+.nav{
+	border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
 .nav-list{
 	text-align: center;
-	padding: 10px;
+	padding: 15px;
 	margin: 0 auto;
 }
 .nav-list-item{
-	list-style: none;
 	display: inline-block;
 	margin: 0 20px;
 }
-.main-visual{
-	width: 100%;
-	height: 500px;
-}
 
-.main {
-    width: 840px;
-    margin:0 auto;
+.main{
+	width: 800px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
-.blog{
-	width: 600px;
-	height: 1400px;
+.blog1{
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+    float: left;
+}
+.blog2{
+	width: 200px;
+	height: 200px;
+	background-color: #cdffd3;
 	float: left;
 }
-.sidedar{
-	width: 240px;
-	height: 1400px;
-	float: right;
+.blog3{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #aeffbd;
+
+}
+.blog4{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #93ffab;
+
+}
+.blog5{
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8;
+    float: left;
+}
+.blog6{
+	width: 200px;
+	height: 200px;
+	background-color: #edffbe;
+	float: left;
+}
+.blog7{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #e9ffa5;
+
+}
+.blog8{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #e4ff8d;
+}
+.blog9{
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+    float: left;
+}
+.blog10{
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+	float: left;
+}
+.blog11{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #a4c6ff;
+
+}
+.blog12{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: #8eb8ff;
 }
 
  footer{
