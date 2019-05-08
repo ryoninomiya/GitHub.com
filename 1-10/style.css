@@ -105,6 +105,7 @@ header {
   float: left;
   width: 300px;
   height: 250px;
+  margin:  0 10px 0 0;
   background-image: url(img/sketch.jpg);
   background-size: cover;
   background-position: center;
@@ -121,6 +122,7 @@ header {
   float: left;
   width: 300px;
   height: 250px;
+  margin: 0 0 0 10px;
   background-image: url(img/webcamp.png);
   background-size: cover;
   background-position: center;
@@ -129,6 +131,7 @@ header {
   float: left;
   width: 300px;
   height: 250px;
+  margin: 10px 10px 0  0;
   background-image: url(img/webcamp-mother.png);
   background-size: cover;
   background-position: center;
@@ -137,6 +140,7 @@ header {
   float: left;
   width: 300px;
   height: 250px;
+  margin-top: 10px;
   background-image: url(img/websuku.png);
   background-size: cover;
   background-position: center;
@@ -145,6 +149,7 @@ header {
   float: left;
   width: 300px;
   height: 250px;
+  margin: 10px 0 0 10px;
   background-image: url(img/write.jpg);
   background-size: cover;
   background-position: center;
@@ -447,15 +452,18 @@ header {
 }
 .imag-box3 {
   float: none;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 .imag-box4 {
+  width: 100%;
   float: none;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 .imag-box5 {
+  width: 100%;
   float: none;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -631,7 +639,7 @@ header {
 }
 .bottom-left {
   float: none;
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -641,13 +649,13 @@ header {
 }
 .bottom-right{
   float: none;
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 .bottom-right-right {
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
 }
 
 .sns {
